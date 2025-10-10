@@ -68,41 +68,6 @@ mont15.py & mont16.py: Advanced Data Visualization. These scripts read the monte
 
 mont17.py: The Labouchere System. This script implements and simulates the more complex Labouchere betting system, tracking wager sizes and fund progression to calculate its overall viability.
 
-Prerequisites
-
-To run these scripts, you will need Python 2 or 3 and matplotlib.
-
-You can install the necessary library using pip:
-
-code
-Bash
-download
-content_copy
-expand_less
-pip install matplotlib
-How to Run the Scripts
-
-Clone the repository:
-
-code
-Bash
-download
-content_copy
-expand_less
-git clone https://github.com/your-username/monte-carlo-betting-strategies.git
-cd monte-carlo-betting-strategies
-
-Run a script from your terminal:
-The scripts are best explored in numerical order to understand the project's progression.
-
-code
-Bash
-download
-content_copy
-expand_less
-python mont1.py
-python mont3.py
-# and so on...
 
 Note: Some scripts (like mont11.py) are designed to run indefinitely while searching for optimal parameters and will need to be manually stopped (CTRL+C).
 
